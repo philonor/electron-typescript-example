@@ -34,6 +34,7 @@
   },
   "scripts": {
     "start": "tsc && electron src/index.js",
-    "postinstall": "install-app-deps"
+    "postinstall": "install-app-deps",
+    "db:migrate": "./node_modules/typeorm/cli.js migration:generate -n SomeMigration"
   }
 }
