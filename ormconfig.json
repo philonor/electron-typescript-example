@@ -1,9 +1,10 @@
 {
-  "type": "sqlite",
-  "synchronize": true,
-  "logging": true,
+  "type": "cordova",
+  "database": "test",
+  "location": "default",
+  "synchronize": false,
+  "logging": ["error", "schema"],
   "logger": "simple-console",
-  "database": "database.sqlite",
   "entities": [
     "src/entity/*.js"
   ]

@@ -24,8 +24,8 @@
     "typeorm-example"
   ],
   "dependencies": {
+    "cordova-sqlite-storage": "^3.4.1",
     "electron": "^1.8.4",
-    "sqlite3": "^4.0.0",
     "typeorm": "^0.2.15"
   },
   "devDependencies": {
